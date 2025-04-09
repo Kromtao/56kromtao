@@ -1,1310 +1,638 @@
 {
-  "unsloth/Mistral-Nemo-Base-2407": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1998,
-    "eval_steps": 999,
-    "save_steps": 999
-  },
-  "TitanML/tiny-mixtral": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 18546,
-    "eval_steps": 9273,
-    "save_steps": 9273
-  },
-  "lmsys/vicuna-7b-v1.3": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 628,
-    "eval_steps": 314,
-    "save_steps": 314
-  },
-  "unsloth/Qwen2-1.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1502,
-    "eval_steps": 751,
-    "save_steps": 751
-  },
-  "beomi/polyglot-ko-12.8b-safetensors": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 600,
-    "eval_steps": 300,
-    "save_steps": 300
-  },
-  "unsloth/Qwen2.5-1.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4232,
-    "eval_steps": 2116,
-    "save_steps": 2116
-  },
-  "WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 3116,
-    "eval_steps": 1558,
-    "save_steps": 1558
-  },
-  "trl-internal-testing/tiny-random-LlamaForCausalLM": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 56292,
-    "eval_steps": 28146,
-    "save_steps": 28146
-  },
-  "Qwen/Qwen1.5-1.8B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 8832,
-    "eval_steps": 4416,
-    "save_steps": 4416
-  },
-  "NousResearch/Meta-Llama-3-8B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 2884,
-    "eval_steps": 1442,
-    "save_steps": 1442
-  },
-  "unsloth/mistral-7b-instruct-v0.2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1088,
-    "eval_steps": 544,
-    "save_steps": 544
-  },
-  "NousResearch/Nous-Hermes-2-Mistral-7B-DPO": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1366,
-    "eval_steps": 683,
-    "save_steps": 683
-  },
-  "unsloth/Qwen2.5-0.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 17048,
-    "eval_steps": 8524,
-    "save_steps": 8524
-  },
-  "NousResearch/Nous-Capybara-7B-V1": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 660,
-    "eval_steps": 330,
-    "save_steps": 330
-  },
-  "unsloth/Llama-3.2-1B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 6350,
-    "eval_steps": 3175,
-    "save_steps": 3175
-  },
-  "NousResearch/Yarn-Mistral-7b-128k": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 604,
-    "eval_steps": 302,
-    "save_steps": 302
-  },
-  "jingyeom/seal3.1.6n_7b": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1886,
-    "eval_steps": 943,
-    "save_steps": 943
-  },
-  "unsloth/tinyllama": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 13112,
-    "eval_steps": 6556,
-    "save_steps": 6556
-  },
-  "katuni4ka/tiny-random-dbrx": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 20744,
-    "eval_steps": 10372,
-    "save_steps": 10372
-  },
-  "fxmarty/tiny-random-GemmaForCausalLM": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 22320,
-    "eval_steps": 11160,
-    "save_steps": 11160
-  },
-  "JackFram/llama-68m": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 39300,
-    "eval_steps": 19650,
-    "save_steps": 19650
-  },
-  "huggyllama/llama-7b": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1686,
-    "eval_steps": 843,
-    "save_steps": 843
-  },
-  "EleutherAI/pythia-160m": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 46720,
-    "eval_steps": 23360,
-    "save_steps": 23360
-  },
-  "Qwen/Qwen2-0.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 6718,
-    "eval_steps": 3359,
-    "save_steps": 3359
-  },
-  "heegyu/WizardVicuna2-13b-hf": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 540,
-    "eval_steps": 270,
-    "save_steps": 270
-  },
-  "NousResearch/Yarn-Solar-10b-32k": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1408,
-    "eval_steps": 704,
-    "save_steps": 704
-  },
-  "tiiuae/falcon-rw-1b": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 6988,
-    "eval_steps": 3494,
-    "save_steps": 3494
-  },
-  "Qwen/Qwen2.5-0.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4736,
-    "eval_steps": 2368,
-    "save_steps": 2368
-  },
-  "TinyLlama/TinyLlama-1.1B-Chat-v0.6": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4272,
-    "eval_steps": 2136,
-    "save_steps": 2136
-  },
-  "unsloth/zephyr-sft": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 900,
-    "eval_steps": 450,
-    "save_steps": 450
-  },
-  "unsloth/SmolLM-1.7B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2090,
-    "eval_steps": 1045,
-    "save_steps": 1045
-  },
-  "DeepMount00/Llama-3-8b-Ita": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 900,
-    "eval_steps": 450,
-    "save_steps": 450
-  },
-  "Vikhrmodels/Vikhr-7B-instruct_0.4": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1292,
-    "eval_steps": 646,
-    "save_steps": 646
-  },
-  "unsloth/SmolLM-360M": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3478,
-    "eval_steps": 1739,
-    "save_steps": 1739
-  },
-  "unsloth/SmolLM-135M": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 7694,
-    "eval_steps": 3847,
-    "save_steps": 3847
-  },
-  "facebook/opt-350m": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 7460,
-    "eval_steps": 3730,
-    "save_steps": 3730
-  },
-  "unsloth/Qwen2-0.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 6584,
-    "eval_steps": 3292,
-    "save_steps": 3292
-  },
-  "microsoft/Phi-3-mini-4k-instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2752,
-    "eval_steps": 1376,
-    "save_steps": 1376
-  },
-  "microsoft/Phi-3.5-mini-instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 876,
-    "eval_steps": 438,
-    "save_steps": 438
-  },
-  "princeton-nlp/Sheared-LLaMA-1.3B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 6074,
-    "eval_steps": 3037,
-    "save_steps": 3037
-  },
-  "Qwen/Qwen2.5-3B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1134,
-    "eval_steps": 567,
-    "save_steps": 567
-  },
-  "unsloth/SmolLM2-1.7B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 5588,
-    "eval_steps": 2794,
-    "save_steps": 2794
-  },
-  "unsloth/Llama-3.1-Storm-8B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 3216,
-    "eval_steps": 1608,
-    "save_steps": 1608
-  },
-  "unsloth/mistral-7b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1476,
-    "eval_steps": 738,
-    "save_steps": 738
-  },
-  "TinyLlama/TinyLlama_v1.1": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4004,
-    "eval_steps": 2002,
-    "save_steps": 2002
-  },
-  "EleutherAI/pythia-70m-deduped": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 27620,
-    "eval_steps": 13810,
-    "save_steps": 13810
-  },
-  "numind/NuExtract-v1.5": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1380,
-    "eval_steps": 690,
-    "save_steps": 690
-  },
-  "Qwen/Qwen2-0.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 5100,
-    "eval_steps": 2550,
-    "save_steps": 2550
-  },
-  "katuni4ka/tiny-random-olmo-hf": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 35400,
-    "eval_steps": 17700,
-    "save_steps": 17700
-  },
-  "unsloth/gemma-7b-it": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 2496,
-    "eval_steps": 1248,
-    "save_steps": 1248
-  },
-  "unsloth/Qwen2.5-1.5B": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 6560,
-    "eval_steps": 3280,
-    "save_steps": 3280
-  },
-  "echarlaix/tiny-random-mistral": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 5748,
-    "eval_steps": 2874,
-    "save_steps": 2874
-  },
-  "Intel/neural-chat-7b-v3-3": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 968,
-    "eval_steps": 484,
-    "save_steps": 484
-  },
-  "unsloth/gemma-2-9b-it": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 952,
-    "eval_steps": 476,
-    "save_steps": 476
-  },
-  "unsloth/gemma-2-2b-it": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1980,
-    "eval_steps": 990,
-    "save_steps": 990
-  },
-  "unsloth/llama-2-7b-chat": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 904,
-    "eval_steps": 452,
-    "save_steps": 452
-  },
-  "berkeley-nest/Starling-LM-7B-alpha": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1560,
-    "eval_steps": 780,
-    "save_steps": 780
-  },
-  "Qwen/Qwen2-1.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4394,
-    "eval_steps": 2197,
-    "save_steps": 2197
-  },
-  "NousResearch/Yarn-Llama-2-13b-64k": {
-    "Learning rate": 0.000204,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 2,
-    "Max steps": 1128,
-    "eval_steps": 564,
-    "save_steps": 564
-  },
-  "unsloth/SmolLM-1.7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3418,
-    "eval_steps": 1709,
-    "save_steps": 1709
-  },
-  "katuni4ka/tiny-random-qwen1.5-moe": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 7928,
-    "eval_steps": 3964,
-    "save_steps": 3964
-  },
-  "Qwen/Qwen2.5-7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1396,
-    "eval_steps": 698,
-    "save_steps": 698
-  },
-  "defog/llama-3-sqlcoder-8b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1716,
-    "eval_steps": 858,
-    "save_steps": 858
-  },
-  "princeton-nlp/gemma-2-9b-it-SimPO": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 380,
-    "eval_steps": 190,
-    "save_steps": 190
-  },
-  "openlm-research/open_llama_3b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2100,
-    "eval_steps": 1050,
-    "save_steps": 1050
-  },
-  "elyza/Llama-3-ELYZA-JP-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1224,
-    "eval_steps": 612,
-    "save_steps": 612
-  },
-  "microsoft/phi-1_5": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2744,
-    "eval_steps": 1372,
-    "save_steps": 1372
-  },
-  "UCLA-AGI/Gemma-2-9B-It-SPPO-Iter2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 624,
-    "eval_steps": 312,
-    "save_steps": 312
-  },
-  "bigscience/bloom-560m": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2302,
-    "eval_steps": 1151,
-    "save_steps": 1151
-  },
-  "aisingapore/llama3-8b-cpt-sea-lionv2.1-instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 826,
-    "eval_steps": 413,
-    "save_steps": 413
-  },
-  "unsloth/Qwen2.5-0.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 5810,
-    "eval_steps": 2905,
-    "save_steps": 2905
-  },
-  "heegyu/WizardVicuna-open-llama-3b-v2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1968,
-    "eval_steps": 984,
-    "save_steps": 984
-  },
-  "EleutherAI/pythia-410m-deduped": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 6446,
-    "eval_steps": 3223,
-    "save_steps": 3223
-  },
-  "dltjdgh0928/test_instruction": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 19520,
-    "eval_steps": 9760,
-    "save_steps": 9760
-  },
-  "oopsung/llama2-7b-koNqa-test-v1": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1266,
-    "eval_steps": 633,
-    "save_steps": 633
-  },
-  "lmsys/vicuna-13b-v1.5": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 452,
-    "eval_steps": 226,
-    "save_steps": 226
-  },
-  "unsloth/Qwen2.5-14B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 804,
-    "eval_steps": 402,
-    "save_steps": 402
-  },
-  "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 876,
-    "eval_steps": 438,
-    "save_steps": 438
-  },
-  "Qwen/Qwen2.5-1.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3336,
-    "eval_steps": 1668,
-    "save_steps": 1668
-  },
-  "01-ai/Yi-1.5-9B-Chat-16K": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 932,
-    "eval_steps": 466,
-    "save_steps": 466
-  },
-  "NousResearch/Yarn-Llama-2-7b-128k": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 684,
-    "eval_steps": 342,
-    "save_steps": 342
-  },
-  "unsloth/Qwen2-7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1324,
-    "eval_steps": 662,
-    "save_steps": 662
-  },
-  "migtissera/Tess-v2.5-Phi-3-medium-128k-14B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 492,
-    "eval_steps": 246,
-    "save_steps": 246
-  },
-  "unsloth/gemma-1.1-2b-it": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2442,
-    "eval_steps": 1221,
-    "save_steps": 1221
-  },
-  "NousResearch/CodeLlama-7b-hf": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 566,
-    "eval_steps": 283,
-    "save_steps": 283
-  },
-  "unsloth/Qwen2-7B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1528,
-    "eval_steps": 764,
-    "save_steps": 764
-  },
-  "unsloth/codegemma-7b-it": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 596,
-    "eval_steps": 298,
-    "save_steps": 298
-  },
-  "lcw99/zephykor-ko-7b-chang": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1622,
-    "eval_steps": 811,
-    "save_steps": 811
-  },
-  "NousResearch/Genstruct-7B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1542,
-    "eval_steps": 771,
-    "save_steps": 771
-  },
-  "Qwen/Qwen1.5-7B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1284,
-    "eval_steps": 642,
-    "save_steps": 642
-  },
-  "unsloth/SmolLM2-360M": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2964,
-    "eval_steps": 1482,
-    "save_steps": 1482
-  },
-  "bigscience/bloomz-560m": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2592,
-    "eval_steps": 1296,
-    "save_steps": 1296
-  },
-  "unsloth/Qwen2.5-Math-1.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1624,
-    "eval_steps": 812,
-    "save_steps": 812
-  },
-  "HuggingFaceH4/tiny-random-LlamaForCausalLM": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 25316,
-    "eval_steps": 12658,
-    "save_steps": 12658
-  },
-  "NousResearch/Hermes-3-Llama-3.1-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1098,
-    "eval_steps": 549,
-    "save_steps": 549
-  },
-  "Qwen/Qwen1.5-14B-Chat": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1024,
-    "eval_steps": 512,
-    "save_steps": 512
-  },
-  "NousResearch/Llama-3.2-1B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3040,
-    "eval_steps": 1520,
-    "save_steps": 1520
-  },
-  "EleutherAI/pythia-14m": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 20488,
-    "eval_steps": 10244,
-    "save_steps": 10244
-  },
-  "unsloth/Qwen2.5-Coder-7B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1612,
-    "eval_steps": 806,
-    "save_steps": 806
-  },
-  "unsloth/Qwen2.5-3B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1820,
-    "eval_steps": 910,
-    "save_steps": 910
-  },
-  "NousResearch/Yarn-Mistral-7b-64k": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1212,
-    "eval_steps": 606,
-    "save_steps": 606
-  },
-  "unsloth/Qwen2.5-Math-7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1564,
-    "eval_steps": 782,
-    "save_steps": 782
-  },
-  "Qwen/Qwen2-7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1948,
-    "eval_steps": 974,
-    "save_steps": 974
-  },
-  "Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 968,
-    "eval_steps": 484,
-    "save_steps": 484
-  },
-  "unsloth/tinyllama-chat": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 5500,
-    "eval_steps": 2750,
-    "save_steps": 2750
-  },
-  "sethuiyer/Medichat-Llama3-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 640,
-    "eval_steps": 320,
-    "save_steps": 320
-  },
-  "Qwen/Qwen2.5-14B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 596,
-    "eval_steps": 298,
-    "save_steps": 298
-  },
-  "upstage/SOLAR-10.7B-Instruct-v1.0": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 578,
-    "eval_steps": 289,
-    "save_steps": 289
-  },
-  "EleutherAI/gpt-neo-125m": {
-    "Learning rate": "5e-05",
-    "Eval batch size": 4,
-    "Micro batch size": 2,
-    "Gradient accumulation steps": 4,
-    "Max steps": 7176,
-    "eval_steps": 3588,
-    "save_steps": 3588
-  },
-  "Qwen/Qwen2.5-Coder-7B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1466,
-    "eval_steps": 733,
-    "save_steps": 733
-  },
-  "dunzhang/stella_en_1.5B_v5": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3436,
-    "eval_steps": 1718,
-    "save_steps": 1718
-  },
-  "EleutherAI/gpt-neo-1.3B": {
-    "Learning rate": "5e-05",
-    "Eval batch size": 4,
-    "Micro batch size": 2,
-    "Gradient accumulation steps": 4,
-    "Max steps": 1178,
-    "eval_steps": 589,
-    "save_steps": 589
-  },
-  "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1056,
-    "eval_steps": 528,
-    "save_steps": 528
-  },
-  "NousResearch/Hermes-2-Theta-Llama-3-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 600,
-    "eval_steps": 300,
-    "save_steps": 300
-  },
-  "unsloth/Llama-3.2-3B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2628,
-    "eval_steps": 1314,
-    "save_steps": 1314
-  },
-  "unsloth/Llama-3.2-3B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1382,
-    "eval_steps": 691,
-    "save_steps": 691
-  },
-  "llamafactory/tiny-random-Llama-3": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 18772,
-    "eval_steps": 9386,
-    "save_steps": 9386
-  },
-  "unsloth/Hermes-3-Llama-3.1-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 604,
-    "eval_steps": 302,
-    "save_steps": 302
-  },
-  "unsloth/SmolLM-135M-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 5112,
-    "eval_steps": 2556,
-    "save_steps": 2556
-  },
-  "TinyLlama/TinyLlama-1.1B-Chat-v1.0": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 580,
-    "eval_steps": 290,
-    "save_steps": 290
-  },
-  "unsloth/Qwen2.5-Math-1.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 3862,
-    "eval_steps": 1931,
-    "save_steps": 1931
-  },
-  "katuni4ka/tiny-random-falcon-40b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 18260,
-    "eval_steps": 9130,
-    "save_steps": 9130
-  },
-  "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 652,
-    "eval_steps": 326,
-    "save_steps": 326
-  },
-  "jhflow/mistral7b-lora-multi-turn-v2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 894,
-    "eval_steps": 447,
-    "save_steps": 447
-  },
-  "EleutherAI/pythia-1b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 5744,
-    "eval_steps": 2872,
-    "save_steps": 2872
-  },
-  "Qwen/Qwen2.5-0.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2396,
-    "eval_steps": 1198,
-    "save_steps": 1198
-  },
-  "unsloth/Qwen2-1.5B-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2072,
-    "eval_steps": 1036,
-    "save_steps": 1036
-  },
-  "tiiuae/falcon-7b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1746,
-    "eval_steps": 873,
-    "save_steps": 873
-  },
-  "NousResearch/Yarn-Solar-10b-64k": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 488,
-    "eval_steps": 244,
-    "save_steps": 244
-  },
-  "HuggingFaceH4/zephyr-7b-beta": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1032,
-    "eval_steps": 516,
-    "save_steps": 516
-  },
-  "samoline/5255b81c-a162-4f3a-9a96-f4d344cb99c8": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1496,
-    "eval_steps": 748,
-    "save_steps": 748
-  },
-  "unsloth/mistral-7b-v0.2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 808,
-    "eval_steps": 404,
-    "save_steps": 404
-  },
-  "unsloth/llama-3-8b-Instruct": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 860,
-    "eval_steps": 430,
-    "save_steps": 430
-  },
-  "peft-internal-testing/tiny-dummy-qwen2": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 21468,
-    "eval_steps": 10734,
-    "save_steps": 10734
-  },
-  "unsloth/codellama-7b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1626,
-    "eval_steps": 813,
-    "save_steps": 813
-  },
-  "GraydientPlatformAPI/realism-engine2-xl": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 926,
-    "eval_steps": 463,
-    "save_steps": 463
-  },
-  "unsloth/mistral-7b-instruct-v0.3": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1230,
-    "eval_steps": 615,
-    "save_steps": 615
-  },
-  "tlphams/gollm-12.8b-instruct-v2.3": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 308,
-    "eval_steps": 154,
-    "save_steps": 154
-  },
-  "echarlaix/tiny-random-PhiForCausalLM": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 190294,
-    "eval_steps": 95147,
-    "save_steps": 95147
-  },
-  "unsloth/Qwen2.5-14B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 356,
-    "eval_steps": 178,
-    "save_steps": 178
-  },
-  "fxmarty/tiny-llama-fast-tokenizer": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 46316,
-    "eval_steps": 23158,
-    "save_steps": 23158
-  },
-  "unsloth/gemma-2-9b": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 1028,
-    "eval_steps": 514,
-    "save_steps": 514
-  },
-  "fxmarty/really-tiny-falcon-testing": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 96714,
-    "eval_steps": 48357,
-    "save_steps": 48357
-  },
-  "samoline/abb39ae4-1908-4ca1-b790-f2eb5d6c8bab": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2444,
-    "eval_steps": 1222,
-    "save_steps": 1222
-  },
-  "unsloth/SmolLM2-135M": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 4348,
-    "eval_steps": 2174,
-    "save_steps": 2174
-  },
-  "NousResearch/CodeLlama-13b-hf": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 636,
-    "eval_steps": 318,
-    "save_steps": 318
-  },
-  "samoline/6352594b-010c-4cc7-9ea2-36fe456de2a6": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2372,
-    "eval_steps": 1186,
-    "save_steps": 1186
-  },
-  "Qwen/Qwen2.5-1.5B": {
-    "Learning rate": 0.000204,
-    "Eval batch size": 4,
-    "Micro batch size": 4,
-    "Gradient accumulation steps": 8,
-    "Max steps": 2216,
-    "eval_steps": 1108,
-    "save_steps": 1108
-  }
+    "katuni4ka/tiny-random-codegen2": {
+        "flash_attention": false,
+        "sequence_len": 1024
+    },
+    "samoline/9c3101fe-8bc7-4dad-9c9a-edfaacfe28fe": {
+        "flash_attention": false
+    },
+    "NousResearch/CodeLlama-13b-hf-flash": {
+        "flash_attention": false
+    },
+    "NousResearch/CodeLlama-7b-hf-flash": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-7b-64k": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-13b-128k": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-7b-128k": {
+        "flash_attention": false
+    },
+    "tiiuae/falcon-mamba-7b": {
+        "flash_attention": false
+    },
+    "01-ai/Yi-1.5-9B-Chat-16K": {
+        "eval_steps": 466,
+        "max_steps": 932,
+        "save_steps": 466
+    },
+    "aisingapore/llama3-8b-cpt-sea-lionv2.1-instruct": {
+        "eval_steps": 413,
+        "max_steps": 826,
+        "save_steps": 413
+    },
+    "berkeley-nest/Starling-LM-7B-alpha": {
+        "eval_steps": 780,
+        "max_steps": 1560,
+        "save_steps": 780
+    },
+    "bigscience/bloom-560m": {
+        "flash_attention": false,
+        "eval_steps": 1151,
+        "max_steps": 2302,
+        "save_steps": 1151
+    },
+    "bigscience/bloomz-560m": {
+        "flash_attention": false,
+        "eval_steps": 1296,
+        "max_steps": 2592,
+        "save_steps": 1296
+    },
+    "Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B": {
+        "eval_steps": 484,
+        "max_steps": 968,
+        "save_steps": 484
+    },
+    "dltjdgh0928/test_instruction": {
+        "eval_steps": 9760,
+        "max_steps": 19520,
+        "save_steps": 9760
+    },
+    "defog/llama-3-sqlcoder-8b": {
+        "eval_steps": 858,
+        "max_steps": 1716,
+        "save_steps": 858
+    },
+    "dunzhang/stella_en_1.5B_v5": {
+        "flash_attention": false,
+        "eval_steps": 1718,
+        "max_steps": 3436,
+        "save_steps": 1718
+    },
+    "echarlaix/tiny-random-mistral": {
+        "eval_steps": 2874,
+        "max_steps": 5748,
+        "save_steps": 2874
+    },
+    "echarlaix/tiny-random-PhiForCausalLM": {
+        "eval_steps": 95147,
+        "max_steps": 190294,
+        "save_steps": 95147
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+        "eval_steps": 612,
+        "max_steps": 1224,
+        "save_steps": 612
+    },
+    "facebook/opt-350m": {
+        "eval_steps": 3730,
+        "max_steps": 7460,
+        "save_steps": 3730
+    },
+    "fxmarty/really-tiny-falcon-testing": {
+        "flash_attention": false,
+        "eval_steps": 48357,
+        "max_steps": 96714,
+        "save_steps": 48357
+    },
+    "fxmarty/tiny-llama-fast-tokenizer": {
+        "eval_steps": 23158,
+        "max_steps": 46316,
+        "save_steps": 23158
+    },
+    "HuggingFaceH4/tiny-random-LlamaForCausalLM": {
+        "eval_steps": 12658,
+        "max_steps": 25316,
+        "save_steps": 12658
+    },
+    "HuggingFaceH4/zephyr-7b-beta": {
+        "eval_steps": 516,
+        "max_steps": 1032,
+        "save_steps": 516
+    },
+    "EleutherAI/gpt-neo-125m": {
+        "flash_attention": false,
+        "eval_steps": 3588,
+        "max_steps": 7176,
+        "save_steps": 3588
+    },
+    "EleutherAI/gpt-neo-1.3B": {
+        "flash_attention": false,
+        "eval_steps": 589,
+        "max_steps": 1178,
+        "save_steps": 589
+    },
+    "EleutherAI/pythia-1b": {
+        "eval_steps": 2872,
+        "max_steps": 5744,
+        "save_steps": 2872
+    },
+    "EleutherAI/pythia-14m": {
+        "eval_steps": 10244,
+        "max_steps": 20488,
+        "save_steps": 10244
+    },
+    "EleutherAI/pythia-410m-deduped": {
+        "eval_steps": 3223,
+        "max_steps": 6446,
+        "save_steps": 3223
+    },
+    "EleutherAI/pythia-70m-deduped": {
+        "eval_steps": 13810,
+        "max_steps": 27620,
+        "save_steps": 13810
+    },
+    "heegyu/WizardVicuna2-13b-hf": {
+        "eval_steps": 270,
+        "max_steps": 540,
+        "save_steps": 270
+    },
+    "heegyu/WizardVicuna-open-llama-3b-v2": {
+        "eval_steps": 984,
+        "max_steps": 1968,
+        "save_steps": 984
+    },
+    "Intel/neural-chat-7b-v3-3": {
+        "eval_steps": 484,
+        "max_steps": 968,
+        "save_steps": 484
+    },
+    "JackFram/llama-68m": {
+        "eval_steps": 19650,
+        "max_steps": 39300,
+        "save_steps": 19650
+    },
+    "jhflow/mistral7b-lora-multi-turn-v2": {
+        "eval_steps": 447,
+        "max_steps": 894,
+        "save_steps": 447
+    },
+    "jingyeom/seal3.1.6n_7b": {
+        "eval_steps": 943,
+        "max_steps": 1886,
+        "save_steps": 943
+    },
+    "katuni4ka/tiny-random-dbrx": {
+        "eval_steps": 10372,
+        "max_steps": 20744,
+        "save_steps": 10372
+    },
+    "katuni4ka/tiny-random-falcon-40b": {
+        "eval_steps": 9130,
+        "max_steps": 18260,
+        "save_steps": 9130
+    },
+    "katuni4ka/tiny-random-olmo-hf": {
+        "eval_steps": 17700,
+        "max_steps": 35400,
+        "save_steps": 17700
+    },
+    "katuni4ka/tiny-random-qwen1.5-moe": {
+        "eval_steps": 3964,
+        "max_steps": 7928,
+        "save_steps": 3964
+    },
+    "llamafactory/tiny-random-Llama-3": {
+        "eval_steps": 9386,
+        "max_steps": 18772,
+        "save_steps": 9386
+    },
+    "lcw99/zephykor-ko-7b-chang": {
+        "eval_steps": 811,
+        "max_steps": 1622,
+        "save_steps": 811
+    },
+    "lmsys/vicuna-13b-v1.5": {
+        "eval_steps": 226,
+        "max_steps": 452,
+        "save_steps": 226
+    },
+    "lmsys/vicuna-7b-v1.3": {
+        "eval_steps": 314,
+        "max_steps": 628,
+        "save_steps": 314
+    },
+    "migtissera/Tess-v2.5-Phi-3-medium-128k-14B": {
+        "eval_steps": 246,
+        "max_steps": 492,
+        "save_steps": 246
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+        "eval_steps": 1376,
+        "max_steps": 2752,
+        "save_steps": 1376
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+        "eval_steps": 438,
+        "max_steps": 876,
+        "save_steps": 438
+    },
+    "microsoft/phi-1_5": {
+        "eval_steps": 1372,
+        "max_steps": 2744,
+        "save_steps": 1372
+    },
+    "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
+        "eval_steps": 326,
+        "max_steps": 652,
+        "save_steps": 326
+    },
+    "numind/NuExtract-v1.5": {
+        "eval_steps": 690,
+        "max_steps": 1380,
+        "save_steps": 690
+    },
+    "openlm-research/open_llama_3b": {
+        "eval_steps": 1050,
+        "max_steps": 2100,
+        "save_steps": 1050
+    },
+    "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5": {
+        "eval_steps": 528,
+        "max_steps": 1056,
+        "save_steps": 528
+    },
+    "oopsung/llama2-7b-koNqa-test-v1": {
+        "eval_steps": 633,
+        "max_steps": 1266,
+        "save_steps": 633
+    },
+    "peft-internal-testing/tiny-dummy-qwen2": {
+        "eval_steps": 10734,
+        "max_steps": 21468,
+        "save_steps": 10734
+    },
+    "princeton-nlp/Sheared-LLaMA-1.3B": {
+        "eval_steps": 3037,
+        "max_steps": 6074,
+        "save_steps": 3037
+    },
+    "princeton-nlp/gemma-2-9b-it-SimPO": {
+        "eval_steps": 190,
+        "max_steps": 380,
+        "save_steps": 190
+    },
+    "Qwen/Qwen1.5-1.8B": {
+        "eval_steps": 4416,
+        "max_steps": 8832,
+        "save_steps": 4416
+    },
+    "Qwen/Qwen1.5-14B-Chat": {
+        "eval_steps": 512,
+        "max_steps": 1024,
+        "save_steps": 512
+    },
+    "Qwen/Qwen1.5-7B": {
+        "eval_steps": 642,
+        "max_steps": 1284,
+        "save_steps": 642
+    },
+    "Qwen/Qwen2-0.5B": {
+        "eval_steps": 2550,
+        "max_steps": 5100,
+        "save_steps": 2550
+    },
+    "Qwen/Qwen2-0.5B-Instruct": {
+        "eval_steps": 3292,
+        "max_steps": 6584,
+        "save_steps": 3292
+    },
+    "Qwen/Qwen2-1.5B-Instruct": {
+        "eval_steps": 2197,
+        "max_steps": 4394,
+        "save_steps": 2197
+    },
+    "Qwen/Qwen2.5-0.5B": {
+        "eval_steps": 1296,
+        "max_steps": 2592,
+        "save_steps": 1296
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+        "eval_steps": 1198,
+        "max_steps": 2396,
+        "save_steps": 1198
+    },
+    "Qwen/Qwen2.5-1.5B": {
+        "eval_steps": 1108,
+        "max_steps": 2216,
+        "save_steps": 1108
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+        "eval_steps": 1668,
+        "max_steps": 3336,
+        "save_steps": 1668
+    },
+    "Qwen/Qwen2.5-3B": {
+        "eval_steps": 567,
+        "max_steps": 1134,
+        "save_steps": 567
+    },
+    "Qwen/Qwen2.5-Coder-7B": {
+        "eval_steps": 806,
+        "max_steps": 1612,
+        "save_steps": 806
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct": {
+        "eval_steps": 733,
+        "max_steps": 1466,
+        "save_steps": 733
+    },
+    "Qwen/Qwen2.5-14B": {
+        "eval_steps": 178,
+        "max_steps": 356,
+        "save_steps": 178
+    },
+    "Qwen/Qwen2.5-14B-Instruct": {
+        "eval_steps": 698,
+        "max_steps": 1396,
+        "save_steps": 698
+    },
+    "samoline/5255b81c-a162-4f3a-9a96-f4d344cb99c8": {
+        "eval_steps": 748,
+        "max_steps": 1496,
+        "save_steps": 748
+    },
+    "samoline/6352594b-010c-4cc7-9ea2-36fe456de2a6": {
+        "eval_steps": 1186,
+        "max_steps": 2372,
+        "save_steps": 1186
+    },
+    "sethuiyer/Medichat-Llama3-8B": {
+        "eval_steps": 320,
+        "max_steps": 640,
+        "save_steps": 320
+    },
+    "tlphams/gollm-12.8b-instruct-v2.3": {
+        "eval_steps": 154,
+        "max_steps": 308,
+        "save_steps": 154
+    },
+    "tiiuae/falcon-7b": {
+        "flash_attention": false,
+        "eval_steps": 873,
+        "max_steps": 1746,
+        "save_steps": 873
+    },
+    "tiiuae/falcon-rw-1b": {
+        "flash_attention": false,
+        "eval_steps": 3494,
+        "max_steps": 6988,
+        "save_steps": 3494
+    },
+    "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
+        "eval_steps": 438,
+        "max_steps": 876,
+        "save_steps": 438
+    },
+    "trl-internal-testing/tiny-random-LlamaForCausalLM": {
+        "eval_steps": 28146,
+        "max_steps": 56292,
+        "save_steps": 28146
+    },
+    "upstage/SOLAR-10.7B-Instruct-v1.0": {
+        "eval_steps": 289,
+        "max_steps": 578,
+        "save_steps": 289
+    },
+    "UCLA-AGI/Gemma-2-9B-It-SPPO-Iter2": {
+        "eval_steps": 312,
+        "max_steps": 624,
+        "save_steps": 312
+    },
+    "Vikhrmodels/Vikhr-7B-instruct_0.4": {
+        "eval_steps": 646,
+        "max_steps": 1292,
+        "save_steps": 646
+    },
+    "WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0": {
+        "eval_steps": 1558,
+        "max_steps": 3116,
+        "save_steps": 1558
+    },
+    "NousResearch/Meta-Llama-3-8B": {
+        "eval_steps": 1442,
+        "max_steps": 2884,
+        "save_steps": 1442
+    },
+    "NousResearch/Nous-Capybara-7B-V1": {
+        "eval_steps": 330,
+        "max_steps": 660,
+        "save_steps": 330
+    },
+    "NousResearch/Yarn-Mistral-7b-128k": {
+        "eval_steps": 302,
+        "max_steps": 604,
+        "save_steps": 302
+    },
+    "NousResearch/Yarn-Solar-10b-32k": {
+        "eval_steps": 704,
+        "max_steps": 1408,
+        "save_steps": 704
+    },
+    "NousResearch/Yarn-Llama-2-13b-64k": {
+        "flash_attention": false,
+        "eval_steps": 1520,
+        "max_steps": 3040,
+        "save_steps": 1520
+    },
+    "NousResearch/Hermes-3-Llama-3.1-8B": {
+        "eval_steps": 549,
+        "max_steps": 1098,
+        "save_steps": 549
+    },
+    "NousResearch/CodeLlama-7b-hf": {
+        "flash_attention": false,
+        "eval_steps": 283,
+        "max_steps": 566,
+        "save_steps": 283
+    },
+    "NousResearch/CodeLlama-13b-hf": {
+        "flash_attention": false,
+        "eval_steps": 318,
+        "max_steps": 636,
+        "save_steps": 318
+    },
+    "NousResearch/Genstruct-7B": {
+        "eval_steps": 771,
+        "max_steps": 1542,
+        "save_steps": 771
+    },
+    "NousResearch/Hermes-2-Theta-Llama-3-8B": {
+        "eval_steps": 300,
+        "max_steps": 600,
+        "save_steps": 300
+    },
+    "unsloth/Mistral-Nemo-Base-2407": {
+        "eval_steps": 999,
+        "max_steps": 1998,
+        "save_steps": 999
+    },
+    "unsloth/Qwen2-1.5B": {
+        "eval_steps": 751,
+        "max_steps": 1502,
+        "save_steps": 751
+    },
+    "unsloth/Qwen2.5-1.5B-Instruct": {
+        "eval_steps": 2116,
+        "max_steps": 4232,
+        "save_steps": 2116
+    },
+    "unsloth/mistral-7b-instruct-v0.2": {
+        "eval_steps": 544,
+        "max_steps": 1088,
+        "save_steps": 544
+    },
+    "unsloth/Qwen2.5-0.5B-Instruct": {
+        "eval_steps": 9273,
+        "max_steps": 18546,
+        "save_steps": 9273
+    },
+    "unsloth/SmolLM-1.7B": {
+        "eval_steps": 1045,
+        "max_steps": 2090,
+        "save_steps": 1045
+    },
+    "unsloth/SmolLM-360M": {
+        "eval_steps": 1739,
+        "max_steps": 3478,
+        "save_steps": 1739
+    },
+    "unsloth/SmolLM-135M": {
+        "eval_steps": 3847,
+        "max_steps": 7694,
+        "save_steps": 3847
+    },
+    "unsloth/Qwen2-0.5B-Instruct": {
+        "eval_steps": 3292,
+        "max_steps": 6584,
+        "save_steps": 3292
+    },
+    "unsloth/Qwen2.5-0.5B": {
+        "eval_steps": 8524,
+        "max_steps": 17048,
+        "save_steps": 8524
+    },
+    "unsloth/gemma-7b-it": {
+        "eval_steps": 1248,
+        "max_steps": 2496,
+        "save_steps": 1248
+    },
+    "unsloth/Qwen2.5-1.5B": {
+        "eval_steps": 3280,
+        "max_steps": 6560,
+        "save_steps": 3280
+    },
+    "unsloth/tinyllama": {
+        "eval_steps": 6556,
+        "max_steps": 13112,
+        "save_steps": 6556
+    },
+    "unsloth/gemma-2-9b-it": {
+        "eval_steps": 514,
+        "max_steps": 1028,
+        "save_steps": 514
+    },
+    "unsloth/gemma-2-2b-it": {
+        "eval_steps": 990,
+        "max_steps": 1980,
+        "save_steps": 990
+    },
+    "unsloth/llama-2-7b-chat": {
+        "eval_steps": 452,
+        "max_steps": 904,
+        "save_steps": 452
+    },
+    "unsloth/mistral-7b": {
+        "eval_steps": 738,
+        "max_steps": 1476,
+        "save_steps": 738
+    },
+    "unsloth/gemma-1.1-2b-it": {
+        "eval_steps": 1221,
+        "max_steps": 2442,
+        "save_steps": 1221
+    },
+    "unsloth/Qwen2.5-3B": {
+        "eval_steps": 910,
+        "max_steps": 1820,
+        "save_steps": 910
+    },
+    "unsloth/SmolLM-1.7B-Instruct": {
+        "eval_steps": 1709,
+        "max_steps": 3418,
+        "save_steps": 1709
+    },
+    "unsloth/Qwen2.5-Math-1.5B": {
+        "eval_steps": 1931,
+        "max_steps": 3862,
+        "save_steps": 1931
+    },
+    "unsloth/gemma-2-9b": {
+        "eval_steps": 514,
+        "max_steps": 1028,
+        "save_steps": 514
+    },
+    "unsloth/Qwen2-7B-Instruct": {
+        "eval_steps": 974,
+        "max_steps": 1948,
+        "save_steps": 974
+    },
+    "unsloth/codegemma-7b-it": {
+        "eval_steps": 298,
+        "max_steps": 596,
+        "save_steps": 298
+    },
+    "unsloth/SmolLM2-1.7B": {
+        "eval_steps": 2794,
+        "max_steps": 5588,
+        "save_steps": 2794
+    },
+    "unsloth/Hermes-3-Llama-3.1-8B": {
+        "eval_steps": 302,
+        "max_steps": 604,
+        "save_steps": 302
+    },
+    "unsloth/SmolLM-135M-Instruct": {
+        "eval_steps": 2556,
+        "max_steps": 5112,
+        "save_steps": 2556
+    },
+    "unsloth/Qwen2.5-Math-1.5B-Instruct": {
+        "eval_steps": 1931,
+        "max_steps": 3862,
+        "save_steps": 1931
+    },
+    "unsloth/Qwen2.5-Math-7B-Instruct": {
+        "eval_steps": 782,
+        "max_steps": 1564,
+        "save_steps": 782
+    },
+    "unsloth/Qwen2-1.5B-Instruct": {
+        "eval_steps": 1036,
+        "max_steps": 2072,
+        "save_steps": 1036
+    },
+    "unsloth/llama-3-8b-Instruct": {
+        "eval_steps": 430,
+        "max_steps": 860,
+        "save_steps": 430
+    },
+    "unsloth/tinyllama-chat": {
+        "eval_steps": 2750,
+        "max_steps": 5500,
+        "save_steps": 2750
+    },
+    "samoline/abb39ae4-1908-4ca1-b790-f2eb5d6c8bab": {
+        "eval_steps": 1222,
+        "max_steps": 2444,
+        "save_steps": 1222
+    },
+    "unsloth/SmolLM2-135M": {
+        "eval_steps": 2174,
+        "max_steps": 4348,
+        "save_steps": 2174
+    }
 }
